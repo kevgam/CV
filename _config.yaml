@@ -1,114 +1,126 @@
 # Profile section
 profile:
-  first_name: Rodolfo
-  last_name: Ferro
-  picture: https://cdn.glitch.com/88028f3b-2a37-4207-9b84-e56ad97a9d3d%2Frodo_2021.png?v=1622471953248   # Hosted picture
-  # picture: static/img/rodo_2021.png  # Local picture
+  first_name: Kevin
+  last_name: Gamuzza
+  #picture: https://cdn.glitch.com/88028f3b-2a37-4207-9b84-e56ad97a9d3d%2Frodo_2021.png?v=1622471953248   # Hosted picture
+  picture: static/img/kevin_gamuzza.jpg  # Local picture
   contact:
-    address_one: León, Guanajuato
+    address_one: Sonnrueti 5, 6233 Bueron
     address_two:
-    phone: (477) ASK-4-IT!
-  email: rodolfoferroperez@gmail.com
+    phone: +41 76 ASK-4-IT!
+  email: k.gamuzza@hotmail.com
   description: |
-    I am a Machine Learning Engineer at Zetalabs S.L. (Spain) and I also collaborate as a Digital Sherpa for the national education program "Innovacción Virtual" with Microsoft Mexico.
-    
-    I've worked as a Python Dev at CloudLinux and served as a research assistant in applied AI at the Mathematics Research Center (CIMAT), part of the National Consortium of Science and Technology (CONACYT) in Mexico. 
-    
-    I participated in a research project during a summer internship (2017) at the Aspuru-Guzik Research Group, in the Department of Chemistry and Chemical Biology at Harvard University, working with applied machine learning for molecular properties prediction and calibration. 
-    
-    I am (currently) a Google Developer Expert in Machine Learning.
+    I call myself an Agile Project Manager and Scrum Master with a pragmatic approach of using agile Frameworks as well as a keen interest in technology itself.
+
+    I have a strong focus on minimal overhead or micromanagement and appreciate working together with experts in order to create great products and services that make a difference in the marketplace.
+
+    I have a strong background in Business Administration and Strategy but I speak and understand the language of the world of technology as well. I
+
+    have an affinity for technology and its development and see myself as a life long learner in this area. Most of my technological know how is selftought and
+
+    I don't see a reason in changing that habit any time soon since the journey is truly rewarding.
 
 
 # Social section
 social:
-  website: https://rodolfoferro.xyz
-  github: https://github.com/RodolfoFerro/
-  twitter: https://twitter.com/FerroRodolfo/
-  linkedin: https://www.linkedin.com/in/rodolfoferro/
-  facebook:
-  dev: https://dev.to/rodolfoferro
-  medium: https://medium.com/@FerroRodolfo
+  #website:
+  github: https://github.com/kevgam
+  twitter: https://twitter.com/BlkSec24
+  linkedin: https://www.linkedin.com/in/kevin-gamuzza-11b43258/
+  #facebook:
+  #dev: https://dev.to/rodolfoferro
+  #medium: https://medium.com/@FerroRodolfo
 
 
 # Experience section
 experience:
   item7:
-    position: ML Engineer
-    company: Zetalabs S.L.
-    from: March 2021
+    position: Scrum Master SAFe
+    company: SBB AG
+    from: February 2021
     to: Present
     description: >
-      Leading the AI development team. Contributing with computer vision tasks for company's product.
-    link: http://codeandomexico.org/
+      Servant Leader in the Application Integration Service (API Management / Kafka / Job-Scheduling)
+      with responsibilities in Impediment Management / as Change Agent / Team-Performance Development and Continuous Improvement
+    link:
   item6:
-    position: Community Leader
-    company: Codeando México
-    from: September 2019
-    to: February 2021
+    position: Professional IT-Project Manager
+    company: SBB AG
+    from: Mai 2019
+    to: January 2021
     description: >
-      Codeando México mainly focuses on executing activities that connect society and governments, the usage of technologies and internet-based solutions for civic purposes.
-    link: http://codeandomexico.org/
+      Project Lead and Scrum Master in Projects such as Development of a central API-Management Plattform, Migration Projects
+      with Splunk, Lifecycle Projects with 3Scale API Management and Redhat Single Sign-On Auth-Server, Product Owner of Single Sign-On Auth-Server and establishment of a
+      24/7 Operations DevOps Team
+    link: https://developer.sbb.ch/home
   item5:
-    position: Open Data Coordinator
-    company: LAB León / General Direction of Innovation León
-    from: July 2018
-    to: September 2019
+    position: Junior IT-Project Manager
+    company: SBB AG
+    from: September 2017
+    to: Mai 2019
     description: >
-      Pushing efforts to open (and work with) data in the city. Helping the city with trainings for digital jobs, including programming courses on Python and web development.
+      Project Lead in evaluation and development of container Web-Application Firewall based on ModSecurity.
+      Project Lead in development of REST API Service to access employeedata in a secure way and self-service model
+    link:
   item4:
-    position: AI Consultant
-    company: NULLSEC (Startup)
-    from: July 2019
-    to: September 2019
+    position: User Service Manager
+    company: SBB AG
+    from: Dezember 2015
+    to: September 2017
     description: >
-      Working as an AI consultant for NULLSEC, a computer security company focused on ethical hacking. Particularly helping in the development of NullRansom, an analyzer-debugger software with the purpose of filtering TCP protocol requests, preventing preventively being targeted by malware and ransomware viruses.
-    link: http://www.nullsec.site
+      Working as a User Service Manager 1st-Level Support responsible for Incident-, Problem- and Configuration Management. Part Time Role in
+      Workforce Management and Callvolume Forecasting.
+    link:
   item3:
-    position: Lead ML Engineer
-    company: Omdena
-    from: May 2019
-    to: July 2019
+    position: User Service Manager
+    company: Freestar Informatik AG
+    from: July 2015
+    to: December 2015
     description: >
-      Lead ML engineer in Omdena's collaborative tree identification challenge to prevent fire outbursts. Contributed with the models developed and the data preprocessing (we develped a Python package for it).
-    link: https://medium.com/omdena/building-ai-for-good-by-the-people-for-the-people-d98ad78b5001
+      Working as a User Service Manager 1st-Level Support responsible for Incident-, Problem- and Configuration Management as
+      external employee for the Service Desk of SBB AG.
+    link:
   item2:
-    position: Jr. Python Software Developer
-    company: CloudLinux
-    from: February 2019
-    to: May 2019
+    position: Sales Consultant
+    company: Swisscom AG
+    from: February 2014
+    to: July 2015
     description: >
-      In charge of building automation solutions with Python. The tech stack used includes Scrapy, Luigi, requests, and MongoDB.
+      Consulting Customers, Sales and Order Management.
   item1:
-    position: AI Research Assistant
-    company: Research Center in Mathematics (CIMAT A.C.)
-    from: February 2018
-    to: February 2019
+    position: Sales Consultant
+    company: Sunrise Telecommunications AG
+    from: November 2011
+    to: January 2014
     description: >
-      On charge of doing research and building neural networks for computer vision problems, focused on applications and solutions for real industry issues. Deployed trained models to production.
-  reference: https://rodolfoferro.xyz/resume/
+      Consulting Customers, Sales and Order Management.
+  reference:
 
 
 # Education section
 education:
   item1:
-    institution: Artificial Intelligence CONACYT Consortium – CIMAT A.C.
-    program: Winter School on Artificial Intelligence
-    description: Attendee to workshops on optimization, deep learning and reinforcement learning. Event organized by the National Consortium on Science and Technology in Mexico.
-    from: February 2019
-    to: February 2019
+    institution: ZHAW School of Engineering
+    program: MAS in Computer Science
+    description:
+      Graduates of the MAS Computer Science are able to systematically analyze problems in computer science and develop and implement scalable solutions. This enables them to play a key role in shaping the digital transformation and to contribute to the success of their company.
+      The MAS Degree consists of 4 seperate CAS and masters thesis. My choice of CAS within the degree consists of Computer Science Fundamentals 1+2 / Object Oriented Programming / Information Engineering.
+    from: March 2021
+    to: July 2023
   item2:
-    institution: University of Guanajuato / CIMAT A.C.
-    program: Bachelor of Mathematics
-    description: Major in Mathematics with Mathematical Computing as terminal area.
-    from: August 2011
+    institution: University of Applied Sciences of North Western Switzerland (FHNW)
+    program: Msc Business Information Systems
+    description: Enabling students to use information and information technology for the success of a company in the globalized, networked and digitized economy. By looking beyond the current state of practice, students learn result-oriented problem-solving strategies and can thus drive innovations in a company.
+    from: September 2017
     to: July 2018
   item3:
-    institution: Harvard University
-    program: Summer Internship – Adapting machine learning techniques for chemistry problems.
-    description: Worked on a project to calibrate and predict molecular properties using Gaussian processes.
+    institution: Berne University of Applied Sciences (BFH)
+    program: BSc in Business Administration with specialisation in Strategy and Digital Marketing
+    description: The degree in business administration deals with internal and external processes as well as various tasks and functions in the company (marketing, finance and accounting, controlling, human resources, production, logistics, strategy and planning, etc.). Future-oriented questions about the direction of the company as well as the right design of the environment and optimal interaction with the environment are the focus.
+      The subject, method, social and personal skills are ideally combined in the course content. The result is a degree program that is optimally geared towards the requirements of a future specialist and management career.
     from: June 2017
     to: August 2017
-  reference: https://rodolfoferro.xyz/resume/
+  reference:
 
 
 # Community section:
@@ -157,25 +169,32 @@ tools:
   # Consider that the following are fa icons:
   #   https://fontawesome.com/icons?d=gallery&s=brands
   - python
-  - markdown
+  - jira
+  - confluence
+  - bitbucket
+  - atlassian
   - git-alt
   - github
   - docker
-  - digital-ocean
-  - google
-  - google-drive
-  - slack
-  - trello
-  - apple
+  - aws
   - linux
+  - jenkins
   - raspberry-pi
+  - slack
+
 extra_skills:
   # - Facebook Messenger, Telegram, and SMS bots
-  - Web scraping and web automation
-  - APIs and web development, MongoDB
-  - Image processing and computer vision
-  - Machine learning and deep learning
-  - Several Python packages – Flask, NumPy, matplotlib, TensorFlow, etc.
+  - Professional - Agile Project Management and Product Development (Scrum, Kanban)
+  - Professional - Scrum Master Role
+  - Professional - Product Owner Role
+  - Professional - Atlassian Toolsuite (Jira, Confluence)
+  - Professional - Stakeholder Management
+  - Professional - Financial Project Controlling as well as Risk Management
+  - Junior - Programming Languages (Python, Javascript, Java)
+  - Junior - Webdevelopment Frameworks (Flask, Bootstrap)
+  - Junior - Hardware/Embedded Systems Programming on Arduino and Raspberry Pi Plattform (Python, C/C++, Node-Red)
+  - Junior - SQL/Database Programming (MariaDB)
+  - Junior - Git/Bitbucket
 
 
 # Talks and workshops section
@@ -320,16 +339,8 @@ projects:
 
 
 # Certifications and awards section
-awards:
-  - 'Winner – #TFWorld TF 2.0 Challenge – TensorFlow at Devpost 2020'
-  - Academy and Technology – Statal Youth Prize Guanajuato 2018
-  - Quantum Computing 101 – IBM Q Certification Badge 2018
-  - 1st. Place – HDI Challenge – Talent City Hackathon 2018
-  - 1st. Place – SWITCH Hackathon 2017
-  - 1st. Place – IBM Hackapalooza – Bluehack Hackathon 2017
-  - 1st. Place – 12th. Creativity and Innovation Contest at the University of Guanajuato 2017
-  - 1st. Place – Centro Fox National Hackathon 2017
-  - 1st. Place – 6th. Creativity and Innovation Contest, DCEA-UG 2016
-  - Silver Award – SynBio Giant Jamboree – iGEM  2016
-  - 1st. Place – 4th. Creativity and Innovation Contest, DCNE-UG 2016
-  - 1st. Place – Fintech – HackBajío Hackathon 2016
+certifications:
+  - SAFe Agilist - 2021
+  - Scrum Product Owner (SBB AG internal Training) - 2020
+  - Scrum Master (The Scrum Alliance) - 2019/2020
+

@@ -51,6 +51,7 @@
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
+        <!-- Skip Community, Skills, Workshops, Projects in Navbar
           <a class="nav-link js-scroll-trigger" href="#community">Community</a>
         </li>
         <li class="nav-item">
@@ -59,8 +60,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li>
+        -->
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
         </li>
       </ul>
     </div>
@@ -119,6 +121,11 @@
         <ul class="fa-ul mb-0">
           {% for item in data.extra_skills %}
           <li>
+            <!--<div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="70" style="width:50%">
+                <span class="sr-only">70% Complete</span>
+              </div>
+            </div>-->
             <i class="fa-li fa fa-check"></i>
             {{ item }}</li>
           {% endfor %}
@@ -148,7 +155,7 @@
           </div>
         </div>
         {% else %}
-        <p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this link</a>.</p>
+        <!--<p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this link</a>.</p>-->
         {% endif %}
         {% endfor %}
       </div>
@@ -182,7 +189,7 @@
     </section>
 
     <hr class="m-0">
-
+<!--
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="community">
       <div class="w-100">
         <h2 class="mb-5">Community and social activity</h2>
@@ -208,7 +215,8 @@
         {% endfor %}
       </div>
     </section>
-
+-->
+<!--
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="workshops">
@@ -243,14 +251,17 @@
         {% endif %}
       </div>
     </section>
-
+-->
+<!--
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
         <p>This section contains awesome projects that I've developed:</p>
+        -->
         <!-- Begins card -->
+<!--
         <div class="row">
           {% for _, item in data.projects.items() %}
           <div class="col-md-4 mb-5">
@@ -280,14 +291,14 @@
         </div>
       </div>
     </section>
-
+-->
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-top" id="certifications">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <h2 class="mb-5">Certifications</h2>
         <ul class="fa-ul mb-0">
-          {% for item in data.awards %}
+          {% for item in data.certifications %}
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             {{ item }}</li>
@@ -297,7 +308,7 @@
     </section>
     
     <div class="container">
-    <p class="small float-right">This Flask template was built with <i class="fas fa-heart text-danger"></i> by <a href="https://rodolfoferro.xyz" target="_blank">Rodolfo Ferro</a>, under a MIT License.</p>
+    <p class="small float-right">This Flask template was built with <i class="fas fa-heart text-danger"></i> by <a href="https://rodolfoferro.xyz" target="_blank">Rodolfo Ferro </a>and modified by Kevin Gamuzza, under a MIT License.</p>
     </div>
   </div>
 
