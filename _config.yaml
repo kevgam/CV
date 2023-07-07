@@ -34,11 +34,23 @@ social:
 
 # Experience section
 experience:
+ item8:
+    position: Product Owner
+    company: Axon Vibe AG
+    from: February 2022
+    to: Present
+    description: >
+      Acted as a liaison between the development team and stakeholders to ensure product requirements are understood and met / 
+      Collaborated with stakeholders to define product requirements and prioritize features / 
+      Managed a product roadmap that identified customer needs and aligned with the company’s overall business strategy / 
+      Established and maintained relationships with customers to understand their needs and ensure successful product delivery / 
+      Developed and maintained a product backlog that tracked customer needs, features, and user stories / 
+      Used customer feedback to drive product decisions and ensure customer satisfaction
   item7:
     position: Scrum Master SAFe
     company: SBB AG
     from: February 2021
-    to: Present
+    to: January 2022
     description: >
       Servant Leader in the Application Integration Service (API Management / Kafka / Job-Scheduling)
       with responsibilities in Impediment Management / as Change Agent / Team-Performance Development and Continuous Improvement
